@@ -1,0 +1,19 @@
+{
+  "name": "fcc-03-07-01",
+  "version": "1.0.0",
+  "description": "FCC -> Front End Libraries -> Front End Libraries Projects -> 01 - Random Quote Machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahdiU256/FCC-03-07-01.git"
+  },
+  "author": "Mahdi Uddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MahdiU256/FCC-03-07-01/issues"
+  },
+  "homepage": "https://github.com/MahdiU256/FCC-03-07-01#readme"
+}
