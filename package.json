@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/MahdiU256/FCC-03-07-01#readme",
   "dependencies": {
+    "core-js": "^3.6.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
