@@ -12,12 +12,18 @@ class Quote extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<p className="quote" id="text">
-					{this.state.quote}
-				</p>
-				<spam className="author" id="author">
-					{this.state.author}
-				</spam>
+				<section className="quotes">
+					<p id="text">{this.state.quote}</p>
+					<spam id="author">{this.state.author}</spam>
+				</section>
+				<section className="click">
+					<a id="tweet-quote" href="twitter.com/intent/tweet">
+						Tweet Quote
+					</a>
+					<button id="new-quote" onClick={this.onClick}>
+						New Quote
+					</button>
+				</section>
 			</React.Fragment>
 		);
 	}
