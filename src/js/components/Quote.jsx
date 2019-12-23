@@ -33,7 +33,7 @@ class Quote extends Component {
 		return (
 			<React.Fragment>
 				<header className="header">
-					<h1 className="title">Random Quote Machine</h1>
+					Random Quote Machine
 				</header>
 				<article className="body">
 					<section className="quotes">
