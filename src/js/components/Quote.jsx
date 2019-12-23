@@ -12,11 +12,12 @@ class Quote extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<header className="header">App Header</header>
-				<section className="body">
-					<h1 className="title">App Title</h1>
-				</section>
-				<footer className="footer">App Footer</footer>
+				<p className="quote" id="text">
+					{this.state.quote}
+				</p>
+				<spam className="author" id="author">
+					{this.state.author}
+				</spam>
 			</React.Fragment>
 		);
 	}
