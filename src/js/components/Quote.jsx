@@ -19,7 +19,7 @@ class Quote extends Component {
 			author: data[0].character
 		});
 	}
-	
+
 	async onClick() {
 		const res = await fetch('https://thesimpsonsquoteapi.glitch.me/quotes');
 		const data = await res.json();
@@ -32,18 +32,31 @@ class Quote extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<section className="quotes">
-					<p id="text">{this.state.quote}</p>
-					<span id="author">{this.state.author}</span>
-				</section>
-				<section className="click">
-					<a id="tweet-quote" href="twitter.com/intent/tweet">
-						Tweet Quote
-					</a>
-					<button id="new-quote" onClick={this.onClick}>
-						New Quote
-					</button>
-				</section>
+				<header className="header">
+					<h1 className="title">Random Quote Machine</h1>
+				</header>
+				<article className="body">
+					<section className="quotes">
+						<p id="text">{this.state.quote}</p>
+						<span id="author">{this.state.author}</span>
+					</section>
+					<section className="click">
+						<a id="tweet-quote" href="twitter.com/intent/tweet">
+							Tweet Quote
+						</a>
+						<button id="new-quote" onClick={this.onClick}>
+							New Quote
+						</button>
+					</section>
+				</article>
+				<footer className="footer">
+					<p className="f-text">Created by Mahdi Uddin, 2019</p>
+					<p className="sources">
+						The API used in this project was{' '}
+						<a href="https://thesimpsonsquoteapi.glitch.me/">"The Simpsons Quote API</a>, created by{' '}
+						<a href="https://jluboff-portfolio.glitch.me/">Jason Luboff</a>.
+					</p>
+				</footer>
 			</React.Fragment>
 		);
 	}
