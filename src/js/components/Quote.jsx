@@ -7,9 +7,20 @@ class Quote extends Component {
 			quote: '',
 			author: ''
 		};
+
+		this.onClick = this.onClick.bind(this);
 	}
 
 	async componentDidMount() {
+		const res = await fetch('https://thesimpsonsquoteapi.glitch.me/quotes');
+		const data = await res.json();
+		this.setState({
+			quote: data[0].quote,
+			author: data[0].character
+		});
+	}
+	
+	async onClick() {
 		const res = await fetch('https://thesimpsonsquoteapi.glitch.me/quotes');
 		const data = await res.json();
 		this.setState({
