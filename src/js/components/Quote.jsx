@@ -14,7 +14,7 @@ class Quote extends Component {
 			<React.Fragment>
 				<section className="quotes">
 					<p id="text">{this.state.quote}</p>
-					<spam id="author">{this.state.author}</spam>
+					<span id="author">{this.state.author}</span>
 				</section>
 				<section className="click">
 					<a id="tweet-quote" href="twitter.com/intent/tweet">
