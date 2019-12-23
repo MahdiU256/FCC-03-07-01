@@ -32,9 +32,7 @@ class Quote extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<header className="header">
-					Random Quote Machine
-				</header>
+				<header className="header">Random Quote Machine</header>
 				<article className="body">
 					<section className="quotes">
 						<p id="text">{this.state.quote}</p>
@@ -50,12 +48,9 @@ class Quote extends Component {
 					</section>
 				</article>
 				<footer className="footer">
-					<p className="f-text">Created by Mahdi Uddin, 2019</p>
-					<p className="sources">
-						The API used in this project was{' '}
-						<a href="https://thesimpsonsquoteapi.glitch.me/">"The Simpsons Quote API</a>, created by{' '}
-						<a href="https://jluboff-portfolio.glitch.me/">Jason Luboff</a>.
-					</p>
+					Created by Mahdi Uddin, 2019. The API used in this project was{' '}
+					<a href="https://thesimpsonsquoteapi.glitch.me/">The Simpsons Quote API</a>, created by{' '}
+					<a href="https://jluboff-portfolio.glitch.me/">Jason Luboff</a>.
 				</footer>
 			</React.Fragment>
 		);
