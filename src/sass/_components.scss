@@ -1,0 +1,5 @@
+#new-quote {
+    @extend #tweet-quote;
+    font-family: $IS;
+    font-size: 16px;
+}
