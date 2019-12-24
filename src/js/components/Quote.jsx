@@ -49,8 +49,8 @@ class Quote extends Component {
 				</article>
 				<footer className="footer">
 					Created by Mahdi Uddin, 2019. The API used in this project was{' '}
-					<a class="ref" href="https://thesimpsonsquoteapi.glitch.me/">The Simpsons Quote API</a>, created by{' '}
-					<a class="ref" href="https://jluboff-portfolio.glitch.me/">Jason Luboff</a>.
+					<a className="ref" href="https://thesimpsonsquoteapi.glitch.me/">The Simpsons Quote API</a>, created by{' '}
+					<a className="ref" href="https://jluboff-portfolio.glitch.me/">Jason Luboff</a>.
 				</footer>
 			</React.Fragment>
 		);
